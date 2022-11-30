@@ -26,6 +26,8 @@ window.Echo = new Echo({
     wsHost: process.env.MIX_LARAVEL_WEBSOCKET_ADDRESS,
     wsPort: process.env.MIX_PUSHER_PORT,
     wssPort: process.env.MIX_PUSHER_PORT,
+    wsPath: process.env.MIX_PUSHER_PATH,
+    wssPath: process.env.MIX_PUSHER_PATH,
     forceTLS: false,
     disableStats: false,
 });
