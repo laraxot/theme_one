@@ -10,11 +10,12 @@ window.Echo = new Echo({
     wssPort: process.env.MIX_PUSHER_PORT,
     wsPath: process.env.MIX_PUSHER_PATH,
     wssPath: process.env.MIX_PUSHER_PATH,
-    forceTLS: true,
+    //forceTLS: false,
     encrypted: true,
     enableLogging: true,
-    disableStats: true,
-    enabledTransports: ['ws', 'wss']
+    disableStats: false,
+    enabledTransports: ['ws', 'wss'],
+    scheme: 'https'
 });
 
 console.log({
