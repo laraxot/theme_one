@@ -1,6 +1,6 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
+@extends('pub_theme::layouts.plane')
+@section('body')
+{{--<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,15 +14,13 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
-    {{--
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    --}}
+    
     <!-- Styles -->
     <link rel="stylesheet" href="{{ Theme::asset('pub_theme::dist/css/app.css') }}">
     @livewireStyles
 
 </head>
-<body>
+--}}
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -83,11 +81,10 @@
             {!!  $slot !!}
         </main>
 
-        <!-- Scripts -->
+        {{--<!-- Scripts -->
         <script src="{{ Theme::asset('pub_theme::dist/js/manifest.js') }}"></script>
         <script src="{{ Theme::asset('pub_theme::dist/js/vendor.js') }}"></script>
         <script src="{{ Theme::asset('pub_theme::dist/js/app.js') }}"></script>
-        @livewireScripts
+        @livewireScripts--}}
     </div>
-</body>
-</html>
+@endsection

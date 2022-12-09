@@ -24,18 +24,27 @@
 @php
 //Theme::add('pub_theme::js/jquery.min.js',1);
 //Theme::add('pub_theme::js/tether.min.js');
-Theme::add('pub_theme::js/bootstrap.min.js');
-Theme::add('pub_theme::js/foodpicky.js');
+/*Theme::add('pub_theme::js/bootstrap.min.js');*/
+/*Theme::add('pub_theme::js/foodpicky.js');*/
 /*
  Theme::add('pub_theme::js/bootstrap-slider.min.js');
  Theme::add('pub_theme::js/jquery.isotope.min.js');
  Theme::add('pub_theme::js/headroom.js');
  Theme::add('/theme/bc/matchHeight/dist/jquery.matchHeight-min.js');
  //Theme::add('pub_theme::js/jquery.validate.min.js');
- */
-Theme::add('pub_theme::js/xot.js');
+ 
+Theme::add('pub_theme::js/xot.js');*/
 @endphp
+<livewire:scripts />
+
 {!! Theme::showScripts(false) !!}
 @stack('scripts')
 
-{{-- dd(Theme::__getStatic('langs')) --}}
+{{--<script defer src="https://unpkg.com/@alpinejs/focus@3.x.x/dist/cdn.min.js"></script>--}}
+
+{{--<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>--}}
+
+<script src="https://cdn.jsdelivr.net/gh/livewire/sortable@v0.x.x/dist/livewire-sortable.js"></script>
+
+@livewire('modal-pro')
+@livewire('slide-over-pro')

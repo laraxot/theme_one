@@ -5,7 +5,7 @@ import 'bootstrap';
 try {
 
     window.$ = window.jQuery = require('jquery');
-}catch (e) {
+} catch (e) {
     console.log(e);
 }
 
@@ -49,3 +49,4 @@ if (token) {
 //     forceTLS: (import.meta.env.VITE_PUSHER_SCHEME ?? 'https') === 'https',
 //     enabledTransports: ['ws', 'wss'],
 // });
+require('../../../../vendor/wire-elements/pro/resources/js/overlay-component.js')
