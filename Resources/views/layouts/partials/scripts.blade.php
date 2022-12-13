@@ -47,4 +47,3 @@ Theme::add('pub_theme::js/xot.js');*/
 <script src="https://cdn.jsdelivr.net/gh/livewire/sortable@v0.x.x/dist/livewire-sortable.js"></script>
 
 @livewire('modal-pro')
-@livewire('slide-over-pro')
