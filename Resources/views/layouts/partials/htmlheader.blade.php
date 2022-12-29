@@ -6,7 +6,7 @@
         /*Theme::add('pub_theme::css/font-awesome.min.css');*/
         /*Theme::add('pub_theme::css/style-child.css');*/
         //Theme::add('pub_theme::css/animsition.min.css');
-        //Theme::add('pub_theme::js/animsition.min.js');
+        //Theme::add('pub_ui::js/animsition.min.js');
         /*Theme::add('/theme/bc/animsition/dist/css/animsition.min.css');*/
         /*Theme::add('/theme/bc/animsition/dist/js/animsition.min.js');*/
         

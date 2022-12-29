@@ -22,18 +22,18 @@
 </script>
 @stack('scripts_before')
 @php
-//Theme::add('pub_theme::js/jquery.min.js',1);
-//Theme::add('pub_theme::js/tether.min.js');
-Theme::add('pub_theme::js/bootstrap.min.js');
-Theme::add('pub_theme::js/foodpicky.js');
+//Theme::add('pub_ui::js/jquery.min.js',1);
+//Theme::add('pub_ui::js/tether.min.js');
+Theme::add('pub_ui::js/bootstrap.min.js');
+Theme::add('pub_ui::js/foodpicky.js');
 /*
- Theme::add('pub_theme::js/bootstrap-slider.min.js');
- Theme::add('pub_theme::js/jquery.isotope.min.js');
- Theme::add('pub_theme::js/headroom.js');
+ Theme::add('pub_ui::js/bootstrap-slider.min.js');
+ Theme::add('pub_ui::js/jquery.isotope.min.js');
+ Theme::add('pub_ui::js/headroom.js');
  Theme::add('/theme/bc/matchHeight/dist/jquery.matchHeight-min.js');
- //Theme::add('pub_theme::js/jquery.validate.min.js');
+ //Theme::add('pub_ui::js/jquery.validate.min.js');
  */
-Theme::add('pub_theme::js/xot.js');
+Theme::add('pub_ui::js/xot.js');
 @endphp
 {!! Theme::showScripts(false) !!}
 @stack('scripts')
