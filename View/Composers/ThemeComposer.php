@@ -28,14 +28,14 @@ class ThemeComposer {
         $view->with('_theme', $this);
     }
 
-    /**
+    /*
      * Get the route or URL.
      *
      * @param string $demo
      *
      * @return string
-     */
-    public static function getPageUrl($path, $demo = '', $mode = null) {
+
+    public static function getPageUrl($path, $demo = '',?string $mode = null) {
         $params = [];
         if (isset($_REQUEST['rtl']) && $_REQUEST['rtl']) {
             $params['rtl'] = 1;
@@ -70,6 +70,7 @@ class ThemeComposer {
         // otherwise return as url
         return url($path).$a;
     }
+    */
 
     /**
      * Get media path.
