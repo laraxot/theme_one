@@ -4,12 +4,9 @@ declare(strict_types=1);
 
 namespace Themes\One\View\Composers;
 
-use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
 
 class ThemeComposer {
-
-
     /**
      * Bind data to the view.
      *
@@ -18,6 +15,4 @@ class ThemeComposer {
     public function compose(View $view) {
         $view->with('_theme', $this);
     }
-
-
 }
