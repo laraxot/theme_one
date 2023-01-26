@@ -2,7 +2,7 @@
     'namePage' => 'Login page',
     'class' => 'login-page sidebar-mini ',
     'activePage' => 'login',
-    'backgroundImage' => Theme::asset('pub_theme::resources/img/bg14.jpg'),
+    'backgroundImage' => Theme::asset('pub_theme::img/bg14.jpg'),
 ])
 
 @section('content')

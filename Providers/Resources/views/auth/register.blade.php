@@ -1,7 +1,7 @@
 @extends('pub_theme::layouts.app', [
     'namePage' => 'Register page',
     'activePage' => 'register',
-    'backgroundImage' => Theme::asset('pub_theme::resources/img/bg16.jpg'),
+    'backgroundImage' => Theme::asset('pub_theme::img/bg16.jpg'),
 ])
 
 @section('content')

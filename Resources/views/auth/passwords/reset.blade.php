@@ -2,7 +2,7 @@
     'namePage' => 'Reset Password',
     'class' => 'login-page sidebar-mini ',
     'activePage' => '',
-    'backgroundImage' => Theme::asset('pub_theme::resources/img/bg14.jpg'),
+    'backgroundImage' => Theme::asset('pub_theme::img/bg14.jpg'),
 ])
 
 @section('content')
