@@ -6,5 +6,9 @@
     array (
       'class' => 'btn btn-primary',
     ),
+    'button' => 
+    array (
+      'class' => 'btn btn-primary',
+    ),
   ),
 );
