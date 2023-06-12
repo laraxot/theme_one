@@ -17,4 +17,7 @@ yarn-error.log
 /.idea
 /.vscode
 *.lock
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
