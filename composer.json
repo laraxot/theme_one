@@ -11,7 +11,6 @@
         "enlightn/enlightn": "^2.5",
         "driftingly/rector-laravel": "^0.26.2",
         "symplify/phpstan-rules": "*",
-        "rector/phpstan-rules": "^0.7.1",
         "thecodingmachine/phpstan-safe-rule": "^1.2"
     },
     "config": {
